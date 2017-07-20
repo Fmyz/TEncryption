@@ -2,6 +2,8 @@
 #pod spec create FWeiXinSDK(文件名)
 #打开方式 选Xcode
 
+s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
+
 #s.source_files指向循环滚动的核心代码放在项目的FWeiXinSDK/SDKExport/*.{h,m}
 
 #s.libraries  表示这个pod依赖的 苹果官方的库，也就是类似libstdc++.a ,libsqlite.a 等等的a文件
