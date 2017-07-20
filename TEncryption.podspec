@@ -68,12 +68,7 @@ Pod::Spec.new do |s|
        md5, DES, AES, GTMBase64, Encrypt
                    DESC
   s.homepage     = "https://github.com/Fmyz/TEncryption"
-  s.license      = {
-    :type => 'Copyright',
-    :text => <<-LICENSE
-        Copyright (c) 2017 FmyzT. All rights reserved.
-        LICENSE
-}
+  s.license      = "MIT"
   s.author       = { "Fmyz" => "https://github.com/Fmyz/TEncryption" }
 
   s.platform     = :ios,'7.0'
