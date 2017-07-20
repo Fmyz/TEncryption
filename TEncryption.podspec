@@ -2,7 +2,7 @@
 #pod spec create FWeiXinSDK(文件名)
 #打开方式 选Xcode
 
-s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
+#s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
 
 #s.source_files指向循环滚动的核心代码放在项目的FWeiXinSDK/SDKExport/*.{h,m}
 
@@ -63,12 +63,10 @@ s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
 
 Pod::Spec.new do |s|
   s.name         = "TEncryption"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
 
-  s.summary      = "Encryptions"
-  s.description  = <<-DESC
-       md5, DES, AES, GTMBase64, Encrypt
-                   DESC
+  s.summary      = "md5, DES, AES, GTMBase64等加密方式"
+
   s.homepage     = "https://github.com/Fmyz/TEncryption"
   s.license      = "MIT"
   s.author       = { "Fmyz" => "https://github.com/Fmyz/TEncryption" }
