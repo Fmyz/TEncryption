@@ -1,6 +1,8 @@
 # TEncryption
 MD5,DES,AES,GTMBase64,Encrypt
 
+pod 'TEncryption'
+
 /*TEncryption*/
 NSString *str = @"FmyzL";
 NSLog(@"tMD5:%@", str.tMD5);
